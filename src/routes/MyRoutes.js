@@ -10,7 +10,6 @@ export default function MyRoute({component: Component, isClosed, ...rest }) {
       <Redirect to={{ pathname: '/login', state: { prevPath: rest.location.pathname} }}/>
     );
   }
-
   return <Route { ...rest } component={ Component } />;
 };
 
