@@ -12,7 +12,7 @@ export default function Login() {
   function handleClick(event)   {
     event.preventDefault();
 
-    dispatch(exampleActions.clickButton());
+    dispatch(exampleActions.clickButtonRequest());
   }
 
   return (
